@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .html,
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: whitesmoke;
+      width: 100%;
+    }
+
+    .header1 {
+      width: 100%;
+      height: 60px;
+      background-color: white;
+    }
+
+    .navigation {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+      width: 100%;
+      height: 100px;
+      background-color: white;
+      display: flex;
+      flex: 6;
+      margin-top: 10px;
+    }
+
+    .s1 {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    } 
+
+    .piture {
+      width: 100%;
+      height: 200px;
+      margin-top: 40px;
+    }
+
+    
+
+    .co1-4 {
+      align-items: center;
+      border-width: 1px;
+      box-sizing: border-box;
+      display: flex;
+       width: 100%;
+      border-radius: 4px;
+      background-color: white;
+      height: 500px;
+    }
+
+    .box {
+      flex: 1;
+      display: flex;
+      border-radius: 20px;
+      flex-direction: column;
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .box-img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+
+    }
+
+    .row-1 {
+      align-items: center;
+      border-width: 1px;
+      box-sizing: border-box;
+      display: flex;
+      height: max-content;
+      width: 90%;
+      border-radius: 1px;
+      height: 310px;
+      column-gap: 10px;
+      margin-right: 90PX;
+      background-color: white;
+    }
+
+    .basic {
+      height: 90px;
+      margin-left: 50px;
+      width: 100%;
+      font-size: xx-large;
+      margin-top: 40px;
+    }
+
+    .co1-5 {
+      align-items: center;
+      border-width: 1px;
+      box-sizing: border-box;
+      display: flex;
+      height: max-content;
+      flex-direction: column;
+      width: 100%;
+      border-radius: 4px;
+      height: auto;
+      column-gap: 20px;
+      background-color: white;
+      margin-top: 30px;
+    }
+
+    .footer1 {
+      width: 100%;
+      height: 400px;
+      background-color: black;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+
+
+    }
+
+    .f1-2 {
+
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+
+    }
+
+    .text {
+      color: #878787;
+      font-size: larger;
+      text-align: center;
+      margin-left: 60px;
+      margin-top: 30px;
+      text-align: left;
+
+    }
+
+    .text-2 {
+      color: white;
+      margin-top: 20px;
+      font-size: medium;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .text1 {
+      margin-left: 70px;
+      border-left: 2px solid #878787;
+      margin-top: 30px;
+    }
+
+    .f1-3 {
+      display: flex;
+      flex-direction: row;
+      border-top: 2px solid #878787;
+       margin-top: 100px;
+    }
+
+    .f1-4 {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+      text-align: center;
+    }
+
+    
+
+   
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header1">
+      <img src="images/fashion.webp" alt="" width="150px" height="40px" style="margin-left: 100px; margin-top: 10px" />
+    </div>
+  </header>
+  <div class="navigation">
+    <div style="margin-left: 150px">
+      <img src="images/29327f40e9c4d26b.png" />
+      <span class="s1">
+        <span>Grocery</span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/22fddf3c7da4c4f4.png" />
+      <span class="s1">
+        <span>Mobiles</span>
+      </span>
+    </div>
+
+    <div style="margin-left: 50px">
+      <img src="images/0d75b34f7d8fbcb3.png" />
+      <span class="s1">
+        <span>Fashion</span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/69c6589653afdb9a.png" />
+      <span class="s1">
+        <span>Electronics</span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/ab7e2b022a4587dd.jpg" />
+      <span class="s1">
+        <span>Home&furnicture</span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/0139228b2f7eb413.jpg" />
+      <span class="s1">
+        <span>Appliances</span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/71050627a56b4693.png" />
+      <span class="s1">
+        <span>Travel</span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/dff3f7adcf3a90c6.png" />
+      <span class="s1">
+        <span>Beauty,toys&more </span>
+      </span>
+    </div>
+    <div style="margin-left: 50px">
+      <img src="images/05d708653beff580.png" />
+      <span class="s1">
+        <span>Two Wheelers</span>
+      </span>
+    </div>
+  </div>
+  <div class="piture">
+    <img src="images/f09f551230626a04(1).jpg" width="100%" />
+  </div>
+  <main style="margin-top: 90px">
+
+    <div class="co1-4" >
+      <div>
+        <div class="basic">
+          <span>Best of Electronics</span>
+        </div>
+        <div class="row-1">
+          <div class="box">
+            <img src="images/-original-imagn53zhtyzh4tn.jpeg" class="box-img">
+            <p style="text-align: center;">Best true wireless headphone</p>
+            <p style="font-size:large; font-weight:800PX;margin:   0px;text-align: center;">Grab Now</p>
+          </div>
+          <div class="box">
+            <img src="images/c-laserjet-m1005-mfp-hp-original-imafjfx2hvjhmysr.jpeg" class="box-img">
+            <p style="text-align: center;">Printers</p>
+            <p style="font-weight: 700;margin: 0px;text-align: center;">From $3999</p>
+          </div>
+          <div class="box">
+            <img src="images/24ed491dc3ff9e8a.jpg" class="box-img">
+            <p style="text-align: center;">Noice smartwatches </p>
+            <p style="font-weight: 700;margin: 0px;text-align: center;">From $1,099</p>
+          </div>
+          <div class="box">
+            <img src="images/eos-r100-24-1-eos-r100-kit-canon-original-imagqeydhsxgacxp.jpeg" class="box-img">
+            <p style="text-align: center;">Top mirroless cameras </p>
+            <p style="font-weight: 700;margin: 0px;text-align: center;">Shop Now </p>
+          </div>
+          <div class="box">
+            <img src="images/-original-imagxrhetgfuebnn.jpeg" class="box-img">
+            <p style="text-align: center;">Fastrack Smartwatches </p>
+            <p style="font-weight: 700;margin: 0px;text-align: center;">From 1,399</p>
+          </div>
+          <div class="box">
+            <img src="images/f2023-aula-original-imagnhc44uakb4zb.jpeg" class="box-img">
+            <p style="text-align: center;">Top selling Dell </p>
+            <p style="font-weight: 700;margin: 0px;text-align: center;">From $2,003</p>
+          </div>
+        </div>
+      </div>
+     <img src="images/32e8514665f65267.jpg" width="100%" height="100%">
+        </div>
+        <!-- nbchdsb -->
+      <div class="co1-5">
+      <div class="basic">
+        <span>Beauty,Food,Toys&More </span>
+      </div>
+      <div class="row-1">
+        <div class="box">
+          <img src="images/119766-flair-original-imag9nzubznagufg.jpeg" class="box-img">
+          <p style="text-align: center;">Top selling stationery</p>
+          <p style="font-size:large; font-weight:800PX;margin:   0px;text-align: center;">From $49</p>
+        </div>
+        <div class="box">
+          <img src="images/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg" class="box-img">
+          <p style="text-align: center;">Geared cycles</p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">up to 70% off</p>
+        </div>
+        <div class="box">
+          <img
+            src="images/4-function-remote-control-high-speed-big-racing-car-toy-funkey-original-imafkg33umd8dy93.jpeg"
+            class="box-img">
+          <p style="text-align: center;">Remote control toys </p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 80% off</p>
+        </div>
+        <div class="box">
+          <img
+            src="images/4-feet-pink-very-beautiful-best-quality-for-special-gift-125-13-original-imafgv92puzkdytg.jpeg"
+            class="box-img">
+          <p style="text-align: center;">Soft toys </p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 70% off </p>
+        </div>
+        <div class="box">
+          <img src="images/-original-imagfykthgudy4qz.jpeg" class="box-img">
+          <p style="text-align: center;">Electric cycle </p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 40% off</p>
+        </div>
+        <div class="box">
+          <img src="images/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg" class="box-img">
+          <p style="text-align: center;">Gym essential </p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">From 139</p>
+        </div>
+      </div>
+    </div>
+    <!-- jhyjgy -->
+    <div class="co1-5">
+      <div class="basic">
+        <span>Best of Electronics</span>
+      </div>
+      <div class="row-1">
+        <div class="box">
+          <img src="images/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg" class="box-img">
+          <p style="text-align: center;">Dry fruits</p>
+          <p style="font-size:large; font-weight:800PX;margin:   0px;text-align: center;">Up 75% off</p>
+        </div>
+        <div class="box">
+          <img src="images/srs-xb23-sony-original-imaftk66vjxp86h5.jpeg" class="box-img">
+          <p style="text-align: center;">Non-Geared cycle</p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 40% off</p>
+        </div>
+        <div class="box">
+          <img src="images/dd-380c-blk-jixing-original-imaeff94e9tczafp.jpeg" class="box-img">
+          <p style="text-align: center;">String instrument </p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 70% off</p>
+        </div>
+        <div class="box">
+          <img
+            src="images/3-5mm-clip-metal-microphone-for-voice-recording-lapel-mic-mobile-original-imag5gxrug6fcbct.jpeg"
+            class="box-img">
+          <p style="text-align: center;">Microphones </p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 70% off</p>
+        </div>
+        <div class="box">
+          <img src="images/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg" class="box-img">
+          <p style="text-align: center;"> Best of action toys</p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up to 70% off </p>
+        </div>
+        <div class="box">
+          <img src="images/37-0-45-37-keys-beston-original-imagyqf8tfvn9xzy.jpeg" class="box-img">
+          <p style="text-align: center;">musical keybord</p>
+          <p style="font-weight: 700;margin: 0px;text-align: center;">Up tp 70% off</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer1">
+      <div class="f1-2">
+        <div class="text">
+          ABOUT
+          <div class="text-2">
+            <span>Contact us</span>
+            <span>about us</span>
+            <span>careers</span>
+            <span>Flipkart stories</span>
+            <span>press</span>
+            <span>corporate information</span>
+          </div>
+        </div>
+        <div class="text">
+          GROUP COMPANIES
+          <div class="text-2">
+            <span>mayntra</span>
+            <span>Flipkart wholsale</span>
+            <span>clear trip</span>
+            <span>shopsy</span>
+
+          </div>
+        </div>
+        <div class="text">
+          HELP
+          <div class="text-2">
+            <span>payment</span>
+            <span>shipping</span>
+            <span>cancellation&Return</span>
+            <span>FAQ</span>
+            <span>report infringement</span>
+          </div>
+        </div>
+        <div class="text">
+          CONSUMER POLICY
+          <div class="text-2">
+            <span>cancellation&Return</span>
+            <span>Term of Use</span>
+            <span>Security</span>
+            <span>Privacy</span>
+            <span>Sitemap</span>
+            <span>Grievance Redressal</span>
+            <span>EPR Compliance </span>
+          </div>
+        </div>
+        <div class="text1"></div>
+        <div class="text">
+          Mail Us:
+          <div class="text-2">
+            <span>flipkart intrenet private limited</span>
+            <span>building alyssa,begonia</span>
+            <span>clove emphacy tech village </span>
+            <span>outer ring road,</span>
+            <span>bangaluru,4545636</span>
+            <span>karnataka,india</span>
+          </div>
+        </div>
+        <div class="text">
+          rejisterd office address
+          <div class="text-2">
+            <span>fashion intrenet private limited</span>
+            <span>bulding alyssa,begonia</span>
+            <span>clove emphacy tech village </span>
+            <span>outer ring road,</span>
+            <span>bangaluru,4545636</span>
+            <span>karnataka,india</span>
+            <span>telephone 2929289289</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="f1-3">
+        <div class="f1-4">
+          <img src="images/sell-image-9de8ef.svg" style="margin-left:40px;margin-top:50px;">
+          <span style="color: white;margin-top: 50px;">become a seller</span>
+          <img src="images/advertise-image-866c0b.svg" style="margin-left:100px;margin-top:50px;">
+          <span style="color: white;margin-top: 50px;">Advertise</span>
+          <img src="images/gift-cards-image-d7ff24.svg" style="margin-left:80px;margin-top:50px;">
+          <span style="color: white;margin-top: 50px;">Gift cards</span>
+          <img src="images/help-centre-image-c4ace8.svg" style="margin-left:100px;margin-top:50px;">
+          <span style="color: white;margin-top: 50px;">Help centre</span>
+          <span style="color: white;margin-top: 50px;margin-left: 80px;">@2027-2024 flipkart.com</span>
+          <img src="images/payment-method-c454fb.svg" style="margin-left:80px;margin-top:50px;">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
